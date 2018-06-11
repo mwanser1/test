@@ -6,7 +6,7 @@ namespace Test
     {
         public AboutViewModel()
         {
-            Title = "About";
+            Title = "About Me";
 
             OpenWebCommand = new Command(() => Plugin.Share.CrossShare.Current.OpenBrowser("https://xamarin.com/platform"));
         }
